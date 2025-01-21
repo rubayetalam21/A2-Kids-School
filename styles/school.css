@@ -1,23 +1,22 @@
-
 /* Font Style */
 .quicksand-regular {
-  font-family: "Quicksand", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Shared Style */
 
-.body{
+/* .body{
     max-width: 1150px;
     margin: 0 auto;
-}
-.display-flex{
+} */
+.display-flex {
     display: flex;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #FEA301;
     border-radius: 12px;
     font-weight: 600;
@@ -29,111 +28,135 @@
 
 /* Header relater Style */
 /* Nav bar related Style*/
-.nav-bar{
+.nav-bar {
     justify-content: space-between;
     align-items: center;
     margin: 20px 40px;
 }
-.logo{
+
+.logo {
     gap: 5px;
 }
-ul{
+
+.nav-ul {
     gap: 32px;
 }
-ul li{
+
+ul li {
     list-style: none;
 }
-ul li a{
+
+ul li a {
     text-decoration: none;
     font-weight: bold;
 }
 
-.home-link{
+.home-link {
     color: #FEA301;
 }
-.about-link{
+
+.about-link {
     color: #01ACFD;
 }
-.facilities-link{
+
+.facilities-link {
     color: #05D4DF;
 }
-.admission-link{
+
+.admission-link {
     color: #5D58EF;
 }
 
 /* Banner Style */
-.banner-div{
+.banner-div {
     justify-content: space-between;
     align-items: center;
     margin: 20px 40px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 500px;
 }
-.banner-title{
+
+.banner-title {
     font-weight: 700;
     font-size: 2.5rem;
 }
-.empowering{
+
+.empowering {
     color: #FEA301;
 }
-.towards-vision{
+
+.towards-vision {
     color: #01ACFD;
 }
-.banner-description{
+
+.banner-description {
     font-size: 0.75rem;
 }
-.btn-enroll{
+
+.btn-enroll {
     background-color: #111111;
 }
+.banner-image{
+    width: 100%;
+}
+
 /* Main */
-.main{
+.main {
     background-image: url(../assets/bg.png);
 }
 
 /* Curriculum Section */
-.curriculum-div{
+.curriculum-div {
     flex-direction: column;
     align-items: center;
     margin: 20px 40px;
 }
-.curriculum-title{
+
+.curriculum-title {
     color: #000000;
     font-size: 2rem;
     font-weight: 700;
 }
-.card{
+
+.card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
 }
-.curriculum-card-1{
+
+.curriculum-card-1 {
     border-radius: 18px;
     background: linear-gradient(to bottom, rgba(222, 245, 255, 1), rgba(255, 255, 255, 0));
     text-align: center;
     padding: 20px 20px;
     border: 1px solid rgba(222, 245, 255, 1);
 }
-.curriculum-card-2{
+
+.curriculum-card-2 {
     border-radius: 18px;
     background: linear-gradient(to bottom, rgba(222, 245, 255, 1), rgba(255, 255, 255, 0));
     text-align: center;
     padding: 20px 20px;
     border: 1px solid rgba(222, 245, 255, 1);
 }
-.curriculum-card-3{
+
+.curriculum-card-3 {
     border-radius: 18px;
     background: linear-gradient(to bottom, rgba(238, 225, 255, 1), rgba(255, 255, 255, 0));
     text-align: center;
     padding: 20px 20px;
     border: 1px solid rgba(222, 245, 255, 1);
 }
-.card-item{
+
+.card-item {
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.card-button{
+
+.card-button {
     border: none;
     color: rgba(224, 44, 109, 0.87);
     margin-top: 10px;
@@ -142,31 +165,38 @@ ul li a{
     background-color: #FFFFFF;
     float: middle;
 }
-.ci-1{
+
+.ci-1 {
     color: #64C8FF;
 }
-.ci-2{
+
+.ci-2 {
     color: #F0AA00;
 }
-.ci-3{
+
+.ci-3 {
     color: #8700FF;
 }
-.card-description{
+
+.card-description {
     color: #808080;
     font-weight: 600;
     font-size: 0.7rem;
 }
-.direction-btn{
+
+.direction-btn {
     margin-top: 20px;
 }
-.left-arrow{
+
+.left-arrow {
     background-color: rgba(254, 163, 1, 1);
     width: 40px;
     height: 40px;
     border-radius: 50px;
     border: none;
 }
-.btn-image{
+
+.btn-image {
     width: 80%;
     align-items: center;
     text-align: center;
@@ -174,12 +204,169 @@ ul li a{
 
 /* Story Section */
 
-.story-card-box-2{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    border: 1px solid red;
+.our-stories {
+    background: linear-gradient(to top, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0));
+    padding: 20px 40px;
 }
 
-.story-card{
-    border: 1px solid red;
+.story-div {
+    gap: 20px;
+}
+
+.story-card-box-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.story-card {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+
+.card-item img {
+    border-radius: 16px 16px 0px 0px;
+    width: 100%;
+}
+
+.btn-div {
+    text-align: center;
+}
+
+.btn-view {
+    background-color: #000000;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.story-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.story-card-title {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+
+.story-card-title-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.story-1-description {
+    padding: 30px 30px 50px 30px;
+    font-weight: 600;
+    font-size: 0.75rem;
+    color: #666666;
+}
+
+.btn-story-card {
+    margin-left: 30px;
+    position: relative;
+    top: -20px;
+    padding: 10px 20px;
+    border-radius: 47px;
+}
+
+.btn-s1 {
+    background-color: #3CD8E8;
+}
+
+.btn-s2 {
+    background-color: #95B226;
+}
+
+.btn-s3 {
+    background-color: #5D58F0;
+}
+
+/*Footer Section */
+.footer-content {
+    padding: 20px 100px;
+    background-color: #01ACFD;
+    justify-content: space-between;
+}
+
+.footer-kid-title {
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
+
+.footer-touch-tile {
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.kid img {
+    background-color: white;
+}
+
+.footer-kid-description {
+    max-width: 350px;
+    color: white;
+    font-size: 0.75rem;
+}
+
+.footer-image-icon {
+    gap: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.school-title {
+    color: white;
+}
+
+.footer-div-school ul li {
+    list-style: none;
+}
+
+.footer-div-school ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.footer-school {
+    flex-direction: column;
+    padding-left: 0px;
+    gap: 5px;
+}
+
+@media screen and (max-width:576px) {
+
+    .banner-div{
+        flex-direction: column-reverse;
+    }
+    .banner-title, .banner-description, .btn-enroll{
+        text-align: center;
+    }
+    .card {
+        
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .story-card-box-2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .story-card-box-1, .school, .nav-links{
+        display: none;
+    }
+    .footer-content,  .nav-bar{
+        flex-direction: column;
+    }
+
 }
