@@ -1,0 +1,185 @@
+
+/* Font Style */
+.quicksand-regular {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Shared Style */
+
+.body{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.display-flex{
+    display: flex;
+}
+
+.btn-primary{
+    background-color: #FEA301;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 0.75rem;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 60px;
+}
+
+/* Header relater Style */
+/* Nav bar related Style*/
+.nav-bar{
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 40px;
+}
+.logo{
+    gap: 5px;
+}
+ul{
+    gap: 32px;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.home-link{
+    color: #FEA301;
+}
+.about-link{
+    color: #01ACFD;
+}
+.facilities-link{
+    color: #05D4DF;
+}
+.admission-link{
+    color: #5D58EF;
+}
+
+/* Banner Style */
+.banner-div{
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 40px;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.empowering{
+    color: #FEA301;
+}
+.towards-vision{
+    color: #01ACFD;
+}
+.banner-description{
+    font-size: 0.75rem;
+}
+.btn-enroll{
+    background-color: #111111;
+}
+/* Main */
+.main{
+    background-image: url(../assets/bg.png);
+}
+
+/* Curriculum Section */
+.curriculum-div{
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 40px;
+}
+.curriculum-title{
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+.curriculum-card-1{
+    border-radius: 18px;
+    background: linear-gradient(to bottom, rgba(222, 245, 255, 1), rgba(255, 255, 255, 0));
+    text-align: center;
+    padding: 20px 20px;
+    border: 1px solid rgba(222, 245, 255, 1);
+}
+.curriculum-card-2{
+    border-radius: 18px;
+    background: linear-gradient(to bottom, rgba(222, 245, 255, 1), rgba(255, 255, 255, 0));
+    text-align: center;
+    padding: 20px 20px;
+    border: 1px solid rgba(222, 245, 255, 1);
+}
+.curriculum-card-3{
+    border-radius: 18px;
+    background: linear-gradient(to bottom, rgba(238, 225, 255, 1), rgba(255, 255, 255, 0));
+    text-align: center;
+    padding: 20px 20px;
+    border: 1px solid rgba(222, 245, 255, 1);
+}
+.card-item{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-button{
+    border: none;
+    color: rgba(224, 44, 109, 0.87);
+    margin-top: 10px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    float: middle;
+}
+.ci-1{
+    color: #64C8FF;
+}
+.ci-2{
+    color: #F0AA00;
+}
+.ci-3{
+    color: #8700FF;
+}
+.card-description{
+    color: #808080;
+    font-weight: 600;
+    font-size: 0.7rem;
+}
+.direction-btn{
+    margin-top: 20px;
+}
+.left-arrow{
+    background-color: rgba(254, 163, 1, 1);
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+}
+.btn-image{
+    width: 80%;
+    align-items: center;
+    text-align: center;
+}
+
+/* Story Section */
+
+.story-card-box-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid red;
+}
+
+.story-card{
+    border: 1px solid red;
+}
