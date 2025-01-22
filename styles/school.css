@@ -36,6 +36,7 @@
 
 .logo {
     gap: 5px;
+    align-items: center;
 }
 
 .nav-ul {
@@ -282,10 +283,9 @@ ul li a {
 .story-card-title {
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 10px;
     font-weight: 700;
     font-size: 0.75rem;
-    margin-top: 5px;
-    margin-bottom: 10px;
 }
 
 .story-card-title-1 {
@@ -293,11 +293,11 @@ ul li a {
     padding-right: 30px;
     padding-top: 20px;
     font-weight: 700;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .story-1-description {
-    padding: 30px 30px 50px 30px;
+    padding: 30px 30px 100px 30px;
     font-weight: 600;
     font-size: 0.75rem;
     color: #666666;
@@ -325,7 +325,7 @@ ul li a {
 
 /*Footer Section */
 .footer-content {
-    padding: 20px 100px;
+    padding: 60px 100px;
     background-color: #01ACFD;
     justify-content: space-between;
 }
