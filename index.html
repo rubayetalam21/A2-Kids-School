@@ -14,7 +14,7 @@
 
 <body class="body quicksand-regular">
     <header>
-        <nav class="nav-bar display-flex">
+        <nav class="nav-bar display-flex nab-bar-border">
             <div class="logo display-flex">
                 <img src="assets/logo.png" alt="">
                 <h3 class="school">SCHOOL</h3>
@@ -26,22 +26,32 @@
                     <li><a class="facilities-link" href="">Facilities</a></li>
                     <li><a class="admission-link" href="">Admission</a></li>
                 </ul>
-
             </div>
-            <button class="btn-primary">Contact</button>
+            <button class="btn-contact btn-primary">Contact</button>
+            <div class="hamburger">☰</div>
         </nav>
+        <!--Banner Section-->
         <div class="banner-div display-flex">
             <div class="banner-content">
                 <h2 class="banner-title"><span class="empowering">Empowering </span><br>
                     students from small <br>age <span class="towards-vision">towards vision</span></h2>
-                <p class="banner-description">With the courage, Confidence, Creativity and Compassion to make their
+                <p class="banner-description overflor-visible">With the courage, Confidence, Creativity and Compassion to make their
                     Unique Contribution in a Diverse and Dynamic World.</p>
-                <button class="btn-primary btn-enroll">Enroll Now</button>
+                <div class="btn-enroll-div">
+                    <button class="btn-primary btn-enroll">Enroll Now</button>
+                </div>
             </div>
             <img class="banner-image" src="assets/hero-kids.png" alt="">
         </div>
     </header>
     <main class="main">
+        <!--Marquee Section-->
+        <section class="marquee-section">
+            <div class="marquee-div">
+                <marquee behavior="scroll" direction="left">School will open from 31 January 2025</marquee>
+            </div>
+        </section>
+
         <!--Curriculum Section-->
         <section class="curriculum-section">
             <div class="curriculum-div display-flex">
@@ -84,7 +94,7 @@
                 </div>
             </div>
         </section>
-
+        <!-- Our Stories Section -->
         <section class="our-stories">
             <div class="story">
                 <h3 class="story-title">Our Stories</h3>
@@ -106,7 +116,9 @@
                         <div class="story-card">
                             <div class="card-item">
                                 <img src="assets/story-2.png" alt="" class="story-card-image">
-                                <button class="btn-story-card btn-primary btn-s2">November 19, 2019</button>
+                                <div class="btn-story">
+                                    <button class="btn-story-card btn-primary btn-s2">November 19, 2019</button>
+                                </div>
                                 <h4 class="story-card-title">Find out if a school fits the
                                     family’s needs</h4>
                             </div>
@@ -114,15 +126,20 @@
                         <div class="story-card">
                             <div class="card-item">
                                 <img src="assets/story-3.png" alt="" class="story-card-image">
-                                <button class="btn-story-card btn-primary btn-s3">November 19, 2019</button>
+                                <div class="btn-story">
+                                    <button class="btn-story-card btn-primary btn-s3">November 19, 2019</button>
+                                </div>
                                 <h4 class="story-card-title">Summer math & literacy
                                     centres for kids</h4>
+                                
                             </div>
                         </div>
                         <div class="story-card">
                             <div class="card-item">
                                 <img src="assets/story-4.png" alt="" class="story-card-image">
-                                <button class="btn-story-card btn-primary btn-s2">September 10, 2019</button>
+                                <div class="btn-story">
+                                    <button class="btn-story-card btn-primary btn-s2">September 10, 2019</button>
+                                </div>
                                 <h4 class="story-card-title">Classroom management
                                     techniques for new tutors</h4>
                             </div>
@@ -130,7 +147,9 @@
                         <div class="story-card">
                             <div class="card-item">
                                 <img src="assets/story-5.png" alt="" class="story-card-image">
+                               <div class="btn-story">
                                 <button class="btn-story-card btn-primary btn-s2">July 19, 2019</button>
+                               </div>
                                 <h4 class="story-card-title">Conversation rhymes
                                     improve kids listening</h4>
                             </div>
